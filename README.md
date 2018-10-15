@@ -16,5 +16,5 @@ An online Camera retail store that allows customers to browse and purchase produ
 * Order Summary page is where the order Id and all the details such as the date of arrival and all other information will be displayed.
 
 ## Technologies
-UI: HTML5, CSS, Bootstrap, JQuery, Javascript 
-Core: AJAX, MySQL, REST, Perl
+* UI: HTML5, CSS, Bootstrap, JQuery, Javascript 
+* Core: AJAX, MySQL, REST, Perl
