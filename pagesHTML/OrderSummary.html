@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>CameraMart</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../bootstrap-4.0.0/assets/js/vendor/popper.min.js"></script>
+    <script src="../bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="../bootstrap-4.0.0/assets/js/vendor/holder.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../Styles/MyStyle.css">
+    <link rel="stylesheet" type="text/css" href="../Styles/product.css">
+    <link rel="stylesheet" type="text/css" href="../Styles/orderonline.css">
+    <script type="text/javascript" src="../js/ShoppingCart.js"></script>
+    <script type="text/javascript" src="../js/cart.js"></script>
+    <!--<script type="text/javascript" src="order_form_validation.js"></script>-->
+    <script type="text/javascript" src="../js/ordersummary.js" ></script>
+    <link href="../bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../Styles/offcanvas.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="bootstrap-4.0.0/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../js/offcanvas.js"></script>
+</head>
+
+<body>
+<div class="wrapperHeader">
+            <h1 class = "Heading">Camera<span class="color"> Mart</span>.</h1>
+            <div id="items">
+                <a id="a-bag" href="../pagesHTML/CartView.html">
+                    <img class="cart"
+                         src="../images/cartt.png"/>
+                    <h5 class="h3_bag"><span id="count">0</span></h5>
+                </a>
+            </div>
+</div>
+
+<div class="topnav" id="myTopnav">
+            <a href="../index.html">Home</a>
+            <a href="../pagesHTML/CartView.html">Go To Cart</a>
+            <!--<a href="orderonline.html" >OrderOnline</a>-->
+            <a href="../pagesHTML/AboutUS.html">About US</a>
+</div>
+
+
+<main role="main" class="container">
+            <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded box-shadow">
+                <!--<img class="mr-3" src="https://getbootstrap.com/assets/brand/bootstrap-outline.svg" alt="" width="48" height="48">-->
+                <div class="lh-100">
+                    <h5 class="mb-0 text-white lh-100">Order Summary</h5>
+                    <!--<small>Since 2011</small>-->
+                </div>
+            </div>
+
+            <div  id = "ordersummary">
+                <!--<h6 class="border-bottom border-gray pb-2 mb-0"></h6>-->
+               <!-- class="my-3 p-3 bg-white rounded box-shadow"-->
+            </div>
+
+            <div class="my-3 p-3 bg-white rounded box-shadow">
+                <h6 class="border-bottom border-gray pb-2 mb-0">Review shipping</h6>
+                <div class="media text-muted pt-3">
+                    <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+                    <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                        <div class="d-flex justify-content-between align-items-center w-100">
+                            <strong class="text-gray-dark">Full Name,the items will be delivered with in two working days</strong>
+
+                        </div>
+                        <span class="d-block"></span>
+                    </div>
+                </div>
+                <div class="media text-muted pt-3">
+                    <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+                    <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                        <div class="d-flex justify-content-between align-items-center w-100">
+                            <strong class="text-gray-dark">Shipping address: </strong>
+                            <!--<a href="#">Follow</a>-->
+                        </div>
+                        <span class="d-block">Address</span>
+                    </div>
+                </div>
+                <div class="media text-muted pt-3">
+                    <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+                    <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                        <div class="d-flex justify-content-between align-items-center w-100">
+                            <strong class="text-gray-dark">Full Name</strong>
+
+                        </div>
+                        <span class="d-block">@username</span>
+                    </div>
+                </div>
+                <small class="d-block text-right mt-3">
+                   <!-- <a href="#">All suggestions</a>-->
+                </small>
+            </div>
+
+            <hr/>
+
+
+            <div class="row">
+
+                <div class="col-sm-6  col-md-6">
+                    <button class="btn btn-block btn-light" onclick= "location.href = '../index.html';" id = "continue">Cancel</button>
+                </div>
+
+                <div class="col-sm-6 col-md-6 text-right">
+                    <button class="btn btn-block btn-success text-uppercase" onclick= "location.href = 'orderonline.html';" id = "CheckOut">Place order</button>
+                </div>
+
+            </div>
+            <hr/>
+            <br></br>
+            <hr/>
+
+</main>
+
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+#LinkToLeft {
+width: 20%;
+margin-top: 10px;
+background-color: white;
+border-radius: 15px;
+}
+
+#LinkToLeft a {
+color: #000000;
+font-weight: bold;
+font-size: 20px;
+}
+
+#chocolatesdiv {
+    margin: 125px;
+}
+h3
+{
+    margin:120px;
+    padding:50px;
+    border: 2px solid black;
+}
+#left-menu {
+    width: 20%;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#left-menu a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#content
+{
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+
+#products-list {
+    width: 75%;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+    background-color:  #ffffff;
+    border-radius: 15px;
+}
+
+
+#navigationn{
+
+	width: 20%;
+	display: inline-block;
+	float: left;
+	margin-top: 55px;
+	/*background-color: #b4b4b4;*/
+	height: 100%
+}
+
+#navigationn a{
+	text-decoration: none;
+	list-style-type: none;
+	color: #2E28A3;
+	font-weight: bold;
+}
+
+#navigationn ul{
+
+	list-style-type: none;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#navigationn ul li{
+	border-bottom: solid 1px #039;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
