@@ -17,5 +17,4 @@ An online Camera retail store that allows customers to browse and purchase produ
 
 ## Technologies
 UI: HTML5, CSS, Bootstrap, JQuery, Javascript
-
 Core: AJAX, MySQL, REST, Perl
