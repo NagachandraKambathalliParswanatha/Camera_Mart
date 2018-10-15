@@ -43,6 +43,9 @@ An online Camera retail store that allows customers to browse and purchase produ
 ![](ScreenShots/InStockPRoduct.png)
 
 
+![](ScreenShots/Product.png)
+
+
 ![](ScreenShots/EmptyCart.png)
 
 
